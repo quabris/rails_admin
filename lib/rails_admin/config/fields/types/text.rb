@@ -12,6 +12,11 @@ module RailsAdmin
           register_instance_option :ckeditor do
             false
           end
+          
+         # Bootsy is disabled by default
+          register_instance_option :bootsy do
+            false
+          end
 
           # If you want to have a different toolbar configuration for CKEditor
           # create your own custom config.js and override this configuration
